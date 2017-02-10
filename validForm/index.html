@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单验证</title>
+	<link rel="stylesheet" href="styles/basic.css" />
+</head>
+<body>
+	<form action="#" method="www.mukewang.com">
+		<!-- 会员名 -->
+		<div>
+			<label><span>会员名：</span><input type="text" class="text" /></label>
+			<p class="msg"><i class="ati"></i>5-25个字符，一个汉字为两个字符，推荐使用中文会员名</p>
+		</div>
+		<div><label><span></span><b id="count">0个字符</b></label></div>
+		<!-- 登录密码 -->
+		<div>
+			<label><span>登录密码:</span><input type="text" class="text" /></label>
+			<p class="msg"><i class="ati"></i>6-16个字符，请使用字母加数字或符号的组合密码，不能单独使用字母、数字或符号</p>
+		</div>
+		<div style="margin:3px 0 10px 0"><label><span></span><em class="active">弱</em><em>中</em><em>强</em></label></div>
+		<!-- 确认密码 -->
+		<div style="margin-bottom:20px">
+			<label><span>确认密码：</span><input type="text" class="text" disabled="disabled" /></label>
+			<p class="msg"><i class="ati"></i>请再输入一次</p>
+		</div>
+		<!-- 验证码 -->
+		
+	</form>
+	<script src="js/main.js"></script>
+</body>
+</html>
