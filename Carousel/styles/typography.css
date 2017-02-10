@@ -1,0 +1,9 @@
+*{
+	margin: 0;
+}
+.arrow{
+	font-size: 36px;
+	text-align: center;
+	line-height: 39px;
+	font-weight: bold;
+}

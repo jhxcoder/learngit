@@ -1,0 +1,52 @@
+*{
+	padding:0;
+}
+#container{
+	width: 600px;
+	height: 400px;
+	border:3px solid #333;
+	overflow: hidden;
+	position: relative;
+}
+#list{
+	width: 4200px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+}
+#list img{
+	float: left;
+}
+#buttons{
+	position: absolute;
+	width: 100px;
+	height:10px;
+	left:50%;
+	margin-left: -50px;
+	bottom: 20px;
+	cursor: pointer;
+	z-index: 2;
+}
+#buttons span{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;	
+	display: inline-block;
+	border:1px solid #fff;
+}
+.arrow{
+	cursor: pointer;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top:50%;
+	margin-top: -25px;
+	display: none;
+	z-index: 2;
+}
+#prev{
+	left:20px;
+}
+#next{
+	right:20px;
+}
