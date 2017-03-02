@@ -1,0 +1,27 @@
+div,img{
+  margin:0;
+  padding:0;
+  border:0;
+}
+.content2 {
+	background: url(../image/kaoyan.jpg) no-repeat;
+	width: 1004px;
+	height: 613px;
+	margin: 0 auto;
+	position: relative;
+}
+.txtshow {
+	position: absolute;
+	top: 126px;
+	left: 477px;
+	color: #000;
+}
+#timeShow{
+    color:#f00;
+    font-weight:bold;
+	font-size:24px;
+	position: relative;
+	left:30px;
+	top:120px;
+	font-size: 100px;
+}

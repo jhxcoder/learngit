@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>海报画廊</title>
+	<link rel="stylesheet" href="styles/basic.css" />
+</head>
+<body onselectstart="return false;">
+<!-- 2.改写视图 为模板字符串 -->
+	<div class="wrap" id="wrap">
+	<!-- photo平移、旋转效果-->
+		<div class="photo photo_front" onclick="turn(this)" id="photo_{{index}}">
+		<!-- photo_wrap-翻转效果 -->
+			<div class="photo_wrap">
+				<div class="side side_front">
+					<p class="image"><img src="images/{{img}}" alt="图片" /></p>
+					<p class="caption">{{caption}}</p>
+				</div>
+				<div class="side side_back">
+					<p class="desc">{{desc}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/data.js"></script>
+	<script src="js/index.js"></script>
+	
+
+</body>
+</html>

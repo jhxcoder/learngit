@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #fff;
+	color:#555;
+	font-family: "Avenir Next","Lantinghei SC";
+	font-size: 14px;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+}
+.wrap{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top:50%;
+	margin-top: -300px;
+	overflow: hidden;
+	background-color: #333;
+	-webkit-perspective:800px;
+	-moz-perspective:800px;
+}
+/*海报样式*/
+.photo{
+	width: 260px;
+	height:320px ;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 0 0 1px rgba(0,0,0,.01);
+	-webkit-transition:all .6s;
+	-moz-transition:all .6s;
+}
+.photo .side{
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	position: absolute;
+	top:0;
+	right: 0;
+	padding:20px;
+	box-sizing: border-box;
+}
+.photo .side_front{
+	
+}
+.photo .side_front .image{
+	width: 100%;
+	height: 250px;
+	line-height: 250px;
+	overflow: hidden;
+}
+.photo .side_front .image img{
+	width: 100%;
+}
+.photo .side_front .caption{
+	text-align: center;
+	font-size: 16px;
+	line-height: 50px;
+}
+.photo .side_back{
+	
+}
+.photo .side_back .desc{
+	color: #666;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+/*当前选中的海报样式*/
+.photo_center{
+	left:50%;
+	top:50%;
+	margin-left: -130px;
+	margin-top: -160px;
+	z-index: 999;
+}
+/*翻转效果*/
+.photo_wrap{
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition:all 1s;
+	-moz-transform-style: preserve-3d;
+	-moz-transition:all 1s;
+}
+.photo_wrap .side_front{
+	-webkit-transform:rotateY(0deg);
+	-moz-transform:rotateY(0deg);
+}
+.photo_wrap .side_back{
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+}
+.photo_wrap .side{
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+}
+
+/*按钮样式*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?beip5e');
+  src:  url('icomoon.eot?beip5e#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?beip5e') format('truetype'),
+    url('icomoon.woff?beip5e') format('woff'),
+    url('icomoon.svg?beip5e#icomoon') format('svg');
+  font-weight: normal;
+  font-size: normal;
+}
+.nav{
+	width: 80%;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	left:10%;
+	bottom: 20px;
+	z-index: 999;
+	text-align: center;
+}
+/*普通样式*/
+.nav span.i{
+	width: 30px;
+	height: 30px;
+	background-color: #aaa;
+	display: inline-block;
+	border-radius: 50%;
+	-webkit-transform:scale(.48);
+	cursor: pointer;
+	-webkit-transition:all 0.6s;
+	-moz-transform:scale(.48);
+	-moz-transition:all 0.6s;
+}
+.nav span.i:after{
+	content: "\e965";
+	font-family: 'icomoon';
+	line-height: 30px;
+	text-align: center;
+	color:#fff;
+	opacity: 0;
+}
+/*选中样式*/
+.nav span.i_current{
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+}
+.nav span.i_current:after{
+	opacity: 1;
+}
+/*背面样式*/
+.nav span.i_back{
+	-webkit-transform:rotateY(-180deg);
+	-moz-transform:rotateY(-180deg);
+	background-color: #555;
+}
+/*优化样式*/
+.photo{
+	left:50%;
+	top:50%;
+	margin-left: -130px;
+	margin-top: -160px;
+}
+.photo_wrap{
+	-webkit-transform-origin:0% 50%;
+	-moz-transform-origin:0% 50%;
+}
+.photo_front .photo_wrap{
+	-webkit-transform:translate(0px,0px) rotateY(0deg);
+	-moz-transform:translate(0px,0px) rotateY(0deg);
+}
+.photo_back .photo_wrap{
+	-webkit-transform:translate(260px,0px) rotateY(180deg);
+	transform:translate(260px,0px) rotateY(180deg);
+}
