@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圣杯布局</title>
+	<style type="text/css">
+		#header,#footer{
+			height: 40px;
+			background-color: red;
+		}
+		#content .aside{
+			background: green;
+			width: 200px;
+			height: 100px;
+			float: left;
+			margin-left: -100%;
+			position: relative;
+			left: -200px;
+		}
+		#content .main{
+			background: blue;
+			width: 100%;
+			height: 100px;
+			float: left;
+		}
+		#content .extra{
+			background: green;
+			width: 200px;
+			height: 100px;
+			float: left;
+			margin-left: -200px;
+			position: relative;
+			left:200px;
+		}
+		
+		#content{
+			padding:0 200px;
+			
+		}
+		#content:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="header"></div>
+	<div id="content">
+		<div class="main">我是main我是main我是main我是main</div>
+		<div class="aside">我是侧边栏1</div>
+		<div class="extra">我是侧边栏2</div>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>

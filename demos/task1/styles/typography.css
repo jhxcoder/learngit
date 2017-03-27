@@ -1,0 +1,93 @@
+*{
+	margin:0;
+}
+#header>p:first-child{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 24px;
+	margin-bottom: 48px;
+}
+#header>p:nth-child(2){
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+#header ul li{
+	list-style: none;
+}
+#header ul li a{
+	list-style: none;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 20px;
+}
+#header>div>img:last-child{
+	border:1px solid #ccc;
+}
+#header>div>img:first-child{
+	box-shadow: 0px 5px 5px #275e33;
+
+}
+#header span{
+	font-size: 10px;
+	font-family: "Brush Script Std";
+	color: #140404;
+}
+#main .thoughts .message p{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+}
+#dialog .circle>span:first-child{
+	margin-right: 18px;
+}
+#dialog .circle>span:nth-child(2){
+	margin-right: 16px;
+}
+#dialog .circle>span:nth-child(3){
+	margin-right: 14px;
+}
+#dialog .circle>span:nth-child(4){
+	margin-right: 11px;
+}
+#dialog .circle>span:nth-child(5){
+	margin-right: 6px;
+}
+#dialog .circle>span:nth-child(6){
+	margin-right: 2px;
+}
+#dialog .girlMessage>p,#dialog .boyMessage>p{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 24px;
+
+}
+#essays .everyEssay>div>p:nth-of-type(1){
+	font-size: 14px;
+	font-family: "宋体";
+	text-align: center;
+	font-weight: bold;
+}
+#essays .everyEssay>div>p:nth-of-type(2){
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 24px;
+}
+#essays>p,#transition>p{
+	font-size: 30px;
+	font-family: "微软雅黑";
+}
+.statement>p:nth-child(2n+1){
+	font-size: 14px;
+	font-family: "宋体";
+}
+.statement>p:nth-child(2n){
+	font-size: 12px;
+	font-family: "宋体";
+}
+#footer>p{
+	font-size: 12px;
+	font-family: "宋体";
+}

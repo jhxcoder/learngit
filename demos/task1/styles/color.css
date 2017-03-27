@@ -1,0 +1,93 @@
+#header>p:first-child{
+	color: #fff;
+}
+#header>p:nth-child(2){
+	color: #fff;
+}
+#header ul li a{
+	color: #fff;
+}
+#header ul li a:hover{
+	background-color: rgba(255,255,255,.7);
+	color: #337e45;
+}
+#header ul>li:first-child a{
+	background-color: rgba(255,255,255,.7);
+	color: #337e45;
+}
+#main .thoughts{
+	background: #559664;
+}
+#main .thoughts .message p{
+	color: #686868;
+	background-color: #fafcfa;s
+}
+#dialog{
+	background-color: #fff;
+}
+#dialog .circle>span:first-child{
+	background-color: #ebf5f3;
+}
+#dialog .circle>span:nth-child(2){
+	background-color: #dbece9;
+}
+#dialog .circle>span:nth-child(3){
+	background-color: #c4e0dc;
+}
+#dialog .circle>span:nth-child(4){
+	background-color: #a3cfc8;
+}
+#dialog .circle>span:nth-child(5){
+	background-color: #75b8ae;
+}
+#dialog .circle>span:nth-child(6){
+	background-color: #429d8e;
+}
+#dialog .circle>span:nth-child(7){
+	background-color: #238d7b;
+}
+#dialog .girlMessage>p{
+	color: #fafcfa;
+	background-color: #559664;
+}
+#dialog .boyMessage>p{
+	color: #505050;
+	background-color: #ececec;
+}
+#essays{
+	background-color: #226039;
+}
+#essays .everyEssay>div{
+	background-color: #fff;
+}
+#essays .everyEssay>div>p{
+	background-color: #ececec;
+}
+#essays .everyEssay>div>p:nth-of-type(1){
+	color: #226039;
+}
+#essays .everyEssay>div>p:nth-of-type(2){
+	color: #666;
+}
+#essays>p,#transition>p{
+	color: #ececec;
+}
+#transition{
+	background-color: rgb(85,150,100);
+	opacity: 0.6;
+}
+#explanitions{
+	background-color: #226039;
+}
+.statement>p:nth-child(2n+1){
+	color: #d2ec40;
+}
+.statement>p:nth-child(2n){
+	color: #ececec;
+}
+#footer{
+	background-color: #032e13;
+}
+#footer>p{
+	color: #559664;
+}

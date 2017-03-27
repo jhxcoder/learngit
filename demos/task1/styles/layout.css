@@ -1,0 +1,347 @@
+*{
+	padding:0;
+}
+body{
+	min-width: 1200px;
+}
+#header{
+	position: relative;
+	width: 100%;
+	height:242px ;
+	background-image: url(../images/images_01.png);
+	background-repeat: no-repeat;
+	background-size: 100% 242px;
+	box-sizing: border-box;
+	padding:39px 0 0 298px;
+}
+#header p{
+	width: 600px;
+}
+#header img{
+	width: 144px;
+	position: absolute;
+	top: 67px;
+	right: 76px;
+
+}
+#header>div>img:first-of-type{
+	transform: rotate(8deg);
+}
+#header>div>img:last-child{
+	top:70px;
+	right:77px;
+}
+#header ul{
+	width: 680px;
+}
+#header ul li {
+	float: left;
+	display: block;
+}
+#header ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#header ul{
+	float: right;
+	margin-right: 180px;
+}
+#header ul li a{
+	display: block;
+	width: 70px;
+	height: 36px;
+}
+#header span{
+	position: absolute;
+	top: 194px;
+	right: 94px;
+}
+#main .thoughts{
+	height:377px;
+}
+#main .thoughts .message{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+#main .thoughts .message1{
+	position: relative;
+	top:1px;
+}
+#main .thoughts .message1>p{
+	width: 259px;
+	height: 158px;
+	padding:34px 26px 33px 18px;
+	box-sizing: border-box;
+}
+#main .thoughts .message2>p{
+	width: 204px;
+	height: 195px;
+	padding:60px 18px 66px 19px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+}
+#main .thoughts .message1>img:nth-child(2){
+	width: 204px;
+	position: relative;
+	top:2px;
+	z-index: 1;
+}
+#main .thoughts .message2>img:first-child{
+	height: 195px;
+}
+#main .thoughts .message1>img:first-child{
+	width: 298px;
+	position: relative;
+	top:1px;
+}
+#dialog{
+	width: 100%;
+	height: 346px;
+}
+#dialog .circle{
+	width: 230px;
+	height: 49px;
+	position: relative;
+	top:23px;
+	left:180px;
+	
+}
+#dialog .circle>span{
+	float: left;
+	position: relative;
+}
+#dialog .circle>span:first-child{
+	width: 11px;
+	height: 11px;
+	border-radius: 11px;
+}
+#dialog .circle>span:nth-child(2){
+	width: 13px;
+	height: 13px;
+	border-radius: 13px;
+	bottom: 1px;
+
+}
+#dialog .circle>span:nth-child(3){
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	bottom: 2px;
+}
+#dialog .circle>span:nth-child(4){
+	width: 17px;
+	height: 17px;
+	border-radius: 17px;
+	bottom: 3px;
+}
+#dialog .circle>span:nth-child(5){
+	width: 21px;
+	height: 21px;
+	border-radius: 21px;
+	bottom: 5px;
+}
+#dialog .circle>span:nth-child(6){
+	width: 27px;
+	height: 27px;
+	border-radius: 27px;
+	bottom: 8px;
+}
+#dialog .circle>span:nth-child(7){
+	width: 29px;
+	height: 29px;
+	border-radius: 29px;
+	bottom: 9px;
+}
+#dialog .girlMessage{
+	width: 750px;
+	position: relative;
+	left: 170px;
+	top:8px;
+}
+#dialog .boyMessage{
+	width:700px;
+	position: relative;
+	left: 480px;
+	bottom: 30px;
+}
+#dialog .girlMessage>p,#dialog .boyMessage>p{
+	display: inline-block;
+}
+#dialog .girlMessage>p{
+	padding: 20px 19px 24px 30px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 71px;
+}
+#dialog .boyMessage>p{
+	padding: 23px 27px 18px 31px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 63px;
+}
+#dialog .girlMessage>div{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-right: 26px solid #559664;
+	border-top: 15px solid transparent;
+	border-bottom:15px solid transparent;
+	position: relative;
+	bottom: 71px;
+	left: 9px;
+}
+#dialog .boyMessage>div{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 26px solid #ececec;
+	border-top: 15px solid transparent;
+	border-bottom:15px solid transparent;
+	position: relative;
+	bottom: 70px;
+	right: 9px;
+}
+#essays{
+	height: 629px;
+	position: relative;
+	top:10px;
+}
+#essays .everyEssay{
+	padding-top: 28px;
+}
+#essays .everyEssay>div{
+	height: 448px;
+	box-sizing: border-box;
+	margin-right: 21px;
+}
+#essays .everyEssay>div:first-child{
+	padding: 10px 7px 10px 10px;
+}
+#essays .everyEssay>div:nth-child(2){
+	padding: 10px 9px 10px 10px;
+}
+#essays .everyEssay>div:nth-child(3){
+	padding: 10px 9px 10px 10px;
+}
+#essays .everyEssay>div>p{
+	width: 305px;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 4px;
+}
+#essays .everyEssay>div>p:nth-of-type(1){
+	padding:22px 0 19px 0;
+	
+}
+#essays .everyEssay>div>p:nth-of-type(2){
+	height: 110px;
+	padding-left: 8px;
+}
+#essays .everyEssay>div:nth-child(3)>p:nth-of-type(2){
+	padding-left: 5px;
+}
+#essays .everyEssay>div:first-child>p{
+	width: 303px;
+}
+#essays .everyEssay>div:nth-child(2)>p{
+	width: 302px;
+}
+#essays .everyEssay>div:nth-child(3)>p{
+	width: 298px;
+}
+#essays .everyEssay{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+#essays>p:first-of-type{
+	width:300px;
+	margin:62px 0 0 160px ;
+}
+#transition>p{
+	transform:rotateX(180deg);
+	margin-left: 160px;
+	
+}
+#transition{
+	position: relative;
+	bottom: 3px;
+	height: 54px;
+}
+#explanitions{
+	height: 384px;
+}
+#explanitions .everyExplanition{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	position: relative;
+	top:13px;
+}
+.picture{
+	float: left;
+	margin-right: 26px;
+}
+.picture>img:first-child{
+	left: 2px;
+	position: relative;
+}
+.picture>img:last-child{
+	position: relative;
+	top:10px;
+	left:7px;
+}
+.statement{
+	float: right;
+	position: relative;
+	top:15px;
+}
+#explanitions .everyExplanition>img{
+	margin-right: 81px;
+}
+.love{	
+	position: relative;
+	top:7px;
+}
+.statement>p:nth-child(2n+1){
+	margin-bottom: 15px;
+}
+.statement>p:nth-child(2n){
+	margin-bottom: 63px;
+}
+#footer{
+	height: 59px;
+	position: relative;
+}
+#footer>p{
+	position: absolute;
+	top:24px;
+	right:150px;
+}
+@media screen and (max-width: 1100px) {
+	body{
+	min-width: 1200px;
+}
+}
+
